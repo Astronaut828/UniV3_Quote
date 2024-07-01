@@ -5,5 +5,8 @@ In this example, we use the QuoterV2 contract to get the expected amount out, th
 TS: 
 npx ts-node PriceCall.ts
 
+TS:
+TokenSwap.ts is part of a frontend that allows users to execute a swap.
+
 SOL: 
 forge script script/Pricecall.s.sol --fork-url https://eth-mainnet.alchemyapi.io/v2/<YOUR_ALCHEMY_API_KEY> --sender <CALLER_ADDRESS> --private-key <CALLER_PRIVATE_KEY> --chain-id 1 
